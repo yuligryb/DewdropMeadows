@@ -1,0 +1,86 @@
+{
+  "sprites": [
+    {
+      "fileName": "bubble1.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "fileName": "bubble10.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 0
+    },
+    {
+      "fileName": "bubble11.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 3840,
+      "y": 0
+    },
+    {
+      "fileName": "bubble2.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 5760,
+      "y": 0
+    },
+    {
+      "fileName": "bubble3.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 1080
+    },
+    {
+      "fileName": "bubble4.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 1080
+    },
+    {
+      "fileName": "bubble5.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 3840,
+      "y": 1080
+    },
+    {
+      "fileName": "bubble6.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 5760,
+      "y": 1080
+    },
+    {
+      "fileName": "bubble7.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 2160
+    },
+    {
+      "fileName": "bubble8.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 2160
+    },
+    {
+      "fileName": "bubble9.png",
+      "width": 1920,
+      "height": 1080,
+      "x": 3840,
+      "y": 2160
+    }
+  ],
+  "packMode": "grid",
+  "padding": 0,
+  "backgroundColor": "rgba(0, 0, 0, 0)",
+  "spriteSheetWidth": 7680,
+  "spriteSheetHeight": 3240
+}
