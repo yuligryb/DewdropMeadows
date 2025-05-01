@@ -4,32 +4,32 @@ class MainMenu extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('MM_Background', 'Assets/Main%20Menu/MM_Background.png');
-    this.load.image('DDM_Logo', 'Assets/Main%20Menu/DDM_Logo.png');
-    this.load.image('Start_Button', 'Assets/Main%20Menu/Start_Button.png');
-    this.load.image('Quit_Button', 'Assets/Main%20Menu/Quit_Button.png');
-    this.load.image('Settings_Button', 'Assets/Main%20Menu/Settings_Button.png');
-    this.load.image('UI_Short', 'Assets/Main%20Menu/UI_Short.png');
-    this.load.image('Sound_Bar', 'Assets/Main%20Menu/Sound_Bar.png');
-    this.load.image('Sound_Toggle', 'Assets/Main%20Menu/Sound_Toggle.png');
-    this.load.image('Settings_Close', 'Assets/Main%20Menu/Settings_Close.png');
-    this.load.audio('Water_Sound', 'Assets/Main%20Menu/Water_Sound.mp3');
-    this.load.spritesheet('Bubble_Sheet', 'Assets/Main%20Menu/Bubble_Sheet.png', {
+    this.load.image('MM_Background', 'assets/Main%20Menu/MM_Background.png');
+    this.load.image('DDM_Logo', 'assets/Main%20Menu/DDM_Logo.png');
+    this.load.image('Start_Button', 'assets/Main%20Menu/Start_Button.png');
+    this.load.image('Quit_Button', 'assets/Main%20Menu/Quit_Button.png');
+    this.load.image('Settings_Button', 'assets/Main%20Menu/Settings_Button.png');
+    this.load.image('UI_Short', 'assets/Main%20Menu/UI_Short.png');
+    this.load.image('Sound_Bar', 'assets/Main%20Menu/Sound_Bar.png');
+    this.load.image('Sound_Toggle', 'assets/Main%20Menu/Sound_Toggle.png');
+    this.load.image('Settings_Close', 'assets/Main%20Menu/Settings_Close.png');
+    this.load.audio('Water_Sound', 'assets/Main%20Menu/Water_Sound.mp3');
+    this.load.spritesheet('Bubble_Sheet', 'assets/Main%20Menu/Bubble_Sheet.png', {
       frameWidth: 1920,
       frameHeight: 1080
     });
     for (let i = 1; i <= 8; i++) {
-      this.load.image(`BG${i}`, `Assets/Game%20Scene/BG${i}.png`);
+      this.load.image(`BG${i}`, `assets/Game%20Scene/BG${i}.png`);
     }
-    this.load.image('PG_Fish_Book', 'Assets/Game%20Scene/PG_Fish_Book.png');
+    this.load.image('PG_Fish_Book', 'assets/Game%20Scene/PG_Fish_Book.png');
     this.load.image('PG_Shopping_Cart', 'Assets/Game%20Scene/PG_Shopping_Cart.png');
 
-    this.load.image('Char_throw', 'Assets/Game%20Scene/Char_throw.png');
-    this.load.image('Char_throw2', 'Assets/Game%20Scene/Char_throw2.png');
-    this.load.image('Char_idle1', 'Assets/Game%20Scene/Char_idle1.png');
-    this.load.image('Char_idle2', 'Assets/Game%20Scene/Char_idle2.png');
-    this.load.image('Select_1', 'Assets/Game%20Scene/Select_1.png');
-    this.load.image('Select_2', 'Assets/Game%20Scene/Select_2.png');
+    this.load.image('Char_throw', 'assets/Game%20Scene/Char_throw.png');
+    this.load.image('Char_throw2', 'assets/Game%20Scene/Char_throw2.png');
+    this.load.image('Char_idle1', 'assets/Game%20Scene/Char_idle1.png');
+    this.load.image('Char_idle2', 'assets/Game%20Scene/Char_idle2.png');
+    this.load.image('Select_1', 'assets/Game%20Scene/Select_1.png');
+    this.load.image('Select_2', 'assets/Game%20Scene/Select_2.png');
   }
 
   create() {
